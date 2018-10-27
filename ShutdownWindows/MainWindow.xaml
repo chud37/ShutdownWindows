@@ -1,0 +1,69 @@
+﻿<Window x:Class="ShutdownWindows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShutdownWindows"
+        mc:Ignorable="d"
+        Title="Shutdown Windows" Height="210.953" Width="282.066" Icon="pack://siteoforigin:,,,/Resources/if_8_-_Shutdown_1815575.png" MinWidth="282.066" MinHeight="210.953" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+
+
+
+        <StackPanel Orientation="Vertical" Margin="10" DockPanel.Dock="Top">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Shutdown Windows In:</Label>
+                <Label Grid.Column="1" Name="TotalSecondsSmall" HorizontalAlignment="Right" Foreground="#FFC1C1C1"></Label>
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Slider Grid.Column="0"  Name="SliderHours" ValueChanged="SliderHours_ValueChanged" SmallChange="1" IsSnapToTickEnabled="True"/>
+                <Label Grid.Column="1" Name="LabelHours" HorizontalAlignment="Right">0 Hours</Label>
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Slider Grid.Column="0" Name="SliderMinutes" Maximum="59" ValueChanged="SliderMinutes_ValueChanged" SmallChange="1" IsSnapToTickEnabled="True"/>
+                <Label Grid.Column="1" Name="LabelMinutes" HorizontalAlignment="Right">0 Minutes</Label>
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Slider Grid.Column="0" Name="SliderSeconds" Maximum="59" ValueChanged="SliderSeconds_ValueChanged" SmallChange="1" IsSnapToTickEnabled="True"></Slider>
+                <Label Grid.Column="1" Name="LabelSeconds" HorizontalAlignment="Right">0 Seconds</Label>
+            </Grid>
+
+
+
+
+
+
+        </StackPanel>
+
+        <Grid Margin="10,0,10,0" DockPanel.Dock="Bottom" Height="35">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="70"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Height="35" Click="Button_Click">Abort</Button>
+            <Button Grid.Column="2" Height="35" Click="Button_Click_1">Execute</Button>
+        </Grid>
+
+    </DockPanel>
+</Window>

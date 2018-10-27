@@ -1,0 +1,16 @@
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\bin\Debug\ShutdownWindows.exe.config
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\bin\Debug\ShutdownWindows.exe
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\bin\Debug\ShutdownWindows.pdb
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.csprojAssemblyReference.cache
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\MainWindow.g.cs
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\App.g.cs
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows_MarkupCompile.cache
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows_MarkupCompile.lref
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\MainWindow.baml
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.g.resources
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.Properties.Resources.resources
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.csproj.GenerateResource.cache
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.csproj.CoreCompileInputs.cache
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.exe
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\obj\Debug\ShutdownWindows.pdb
+C:\Users\Chud37\source\repos\ShutdownWindows\ShutdownWindows\bin\Debug\Resources\if_8_-_Shutdown_1815575.png
